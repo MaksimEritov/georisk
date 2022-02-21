@@ -1,0 +1,10 @@
+.About {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.address p {
+  text-align: start;
+}

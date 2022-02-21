@@ -1,0 +1,24 @@
+.Table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.Table td, .Table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.Table tr:nth-child(even){background-color: #f2f2f2;}
+
+.Table tr:hover {background-color: #ddd;}
+
+.Table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(218, 226, 219);
+  color: black;
+  text-align: center;
+}
