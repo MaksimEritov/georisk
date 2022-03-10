@@ -1,0 +1,8 @@
+.WorkerCardHolder {
+    display: flex;
+    flex-flow: row;
+}
+.WorkerCardHolder img {
+    margin-bottom: auto;
+    width: 20%;
+}

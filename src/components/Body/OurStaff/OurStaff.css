@@ -1,0 +1,17 @@
+.OurStaff .ourStaffMainHolder, .OurStaff .title{
+    margin: 0px 30px;
+}
+
+.ourStaffMainText {
+    display: flex;
+    flex-direction: column;
+}
+
+.ourStaffMainHolder img {
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.ourStaffMainHolder ul {
+    margin: 0px 30px;
+}
