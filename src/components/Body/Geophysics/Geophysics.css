@@ -1,5 +1,5 @@
 .Geophysics .geophysicsMainText, .Geophysics .title{
-    margin: 0px 30px;
+    margin: 20px 30px 10px;
 }
 
 .geophysicsMainText, .geophysicsList {
@@ -24,8 +24,14 @@
 }
 
 .geophysicsMainText img {
-    padding: 30px;
-    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.geophysicsMainText img:hover {
+    transform: scale(1.03);
 }
 
 .techSection ul {

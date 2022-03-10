@@ -13,7 +13,7 @@ const Navbar = () => {
                 <Navlink to='/gis' name='Remote sensing and GIS' />
                 <Navlink to='/hazardAndRisk' name='Natural hazards and risk assessment' />
                 <Navlink to='/geophysics' name='Geophysical studies and seismic zoning' />
-                <Navlink to='/geotech' name='Geotechnical engineering and slope stability analysis' />
+                <Navlink to='/geotech' name='Geotechnical engineering' />
                 <Navlink to='/ourStaff' name='Our Staff' />
                 <Navlink to='/about' name='About' />
             </div> 

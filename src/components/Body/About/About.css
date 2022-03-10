@@ -1,12 +1,21 @@
 .About {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 50%;
+  width: 70%;
   margin: 0px auto;
+}
+
+.contactsHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .address p {
   text-align: start;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
 }

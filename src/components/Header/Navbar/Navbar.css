@@ -1,4 +1,5 @@
 .navbar {
+    background: white;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -21,22 +22,25 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 35px;
-    border-top: 2px grey solid;
+    border-top: 1px #2f79bd solid;
 }
 
 .navMain > a {
-    margin: 10px;
-    text-decoration: none;
-
+    margin: 8px 4px;
     text-decoration: none;
     display: inline-block;
-    font-weight: 400;
+    font-weight: 600;
     cursor: pointer;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
-    color: #6c757d;
-    border-color: #6c757d;
-    padding: 0.5rem 1rem;
-    border-radius: 0.3rem;
+    color: rgb(27, 27, 27);
+    padding: 8px 12px;
+    min-width: 120px;
+    border-radius: 10px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navMain > a:hover {
+    background-color: #f7f7f7;
 }

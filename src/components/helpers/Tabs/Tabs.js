@@ -10,7 +10,7 @@ const hazardTab = () => (
       <Tab>Earthquakes</Tab>
       <Tab>Volcanoes</Tab>
       <Tab>Landslides</Tab>
-      <Tab>Probabilistic and deterministic assessments of seismic risk</Tab>
+      <Tab>Assessments of seismic risk</Tab>
     </TabList>
 
     <TabPanel>

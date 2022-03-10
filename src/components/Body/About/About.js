@@ -5,16 +5,19 @@ import { About as AboutData } from '../../../constants'
 const About = () => {
   return (
     <div className='About'>
-      <div className='address'>
-        <h4>Company Address</h4>
-        <p>Address: {AboutData.address}</p>
-        <p>Tel.: {AboutData.tel1} / {AboutData.tel2}</p>
-        <p>Website: {AboutData.website}</p>
-        <p>Email: {AboutData.email}</p>
-      </div>
-      <div className='contacts'>
-        <h4>Contact Persons</h4>
-        {Object.keys(AboutData.contactPerson).map(key => (<p key={key}>{key}: {AboutData.contactPerson[key]}</p>))}
+      <h1 className='title'>Contacts</h1>
+      <div className='contactsHolder'>
+        <div className='address'>
+          <h4>Company Address</h4>
+          <p>📞 {AboutData.tel1} / {AboutData.tel2}</p>
+          <p>📧 {AboutData.email}</p>
+          <p>🌎 {AboutData.website}</p>
+          <p>📍 {AboutData.address}</p>
+        </div>
+        <div className='contacts'>
+          <h4>Contact Persons</h4>
+          {Object.keys(AboutData.contactPerson).map(key => (<p key={key}>{key}: + {AboutData.contactPerson[key]}</p>))}
+        </div>
       </div>
     </div>
   );

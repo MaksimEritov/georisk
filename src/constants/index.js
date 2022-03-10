@@ -14,12 +14,12 @@ export const home =  {
 export const About =  {
     address: 'Armenia, Yerevan, 24a Baghramyan Avenue',
     tel1: '(374 10) 523466',
-    tel2: '(374 10) 526517 ',
+    tel2: '(374 10) 526517',
     website: 'www.georisk.am',
     email: 'georisk@sci.am',
     contactPerson: {
         'Hektor Babayan': '(374 93) 320815',
-        'Suren Arakelyan': '(374 91) 2164 13',
+        'Suren Arakelyan': '(374 91) 216413',
     }
 }
 

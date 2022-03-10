@@ -1,7 +1,6 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Header from './Header/Header'
-import Footer from './Footer/Footer'
 import About from './Body/About/About'
 import ArcheoSeismology from './Body/ArcheoSeismology/ArcheoSeismology'
 import Ecology from './Body/Ecology/Ecology'
@@ -29,7 +28,6 @@ function App() {
           <Route path='/archeoSeismology' element={<ArcheoSeismology />} />
         </Routes>
       </div>
-      {/* <Footer /> */}
     </div>
   );
 }

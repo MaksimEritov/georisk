@@ -1,6 +1,7 @@
 .WorkerCardHolder {
     display: flex;
     flex-flow: row;
+    text-align: left;
 }
 .WorkerCardHolder img {
     margin-bottom: auto;
