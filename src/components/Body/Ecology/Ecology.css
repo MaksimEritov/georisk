@@ -1,1 +1,17 @@
+.Ecology .ecoMainText, .Ecology .title{
+    margin: 0px 30px;
+}
 
+.ecoMainText {
+    display: flex;
+    flex-direction: column;
+}
+
+.ecoMainText img {
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.ecoMainText ul {
+    margin: 0px 30px;
+}

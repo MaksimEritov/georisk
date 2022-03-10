@@ -1,0 +1,20 @@
+.HazardAndRisk .hazardAndRiskMainText, .HazardAndRisk .title{
+    margin: 0px 30px;
+}
+
+.hazardAndRiskMainText {
+    display: flex;
+    flex-direction: column;
+}
+
+.hazardAndRiskMainText ul {
+    margin: 0px 30px;
+}
+
+.hazardAndRiskMainText img {
+    padding: 30px;
+}
+
+.tabHolder {
+    margin: 50px 0;
+}

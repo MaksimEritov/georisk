@@ -29,7 +29,7 @@ function App() {
           <Route path='/archeoSeismology' element={<ArcheoSeismology />} />
         </Routes>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

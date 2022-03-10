@@ -22,3 +22,10 @@
   color: black;
   text-align: center;
 }
+
+.tablePrefix {
+  width: 80%;
+  margin: 15px auto;
+  text-align: start;
+  padding-left: 30px;
+}

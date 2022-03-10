@@ -1,0 +1,37 @@
+.Geophysics .geophysicsMainText, .Geophysics .title{
+    margin: 0px 30px;
+}
+
+.geophysicsMainText, .geophysicsList {
+    display: flex;
+    flex-direction: column;
+}
+
+.picsHolder {
+    display: flex;
+}
+.picsHolder img {
+    width: 50%;
+}
+
+.geophysicsSection p {
+    text-align: start;
+    padding-left: 40px;
+}
+
+.geophysicsMainText ol {
+    margin: 30px 0;
+}
+
+.geophysicsMainText img {
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.techSection ul {
+    list-style-type: disclosure-closed;
+}
+.techSection li, .techSection h4 {
+    text-align: start;
+    padding: 10px;
+}

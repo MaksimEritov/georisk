@@ -3,6 +3,8 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  width: 50%;
+  margin: 0px auto;
 }
 
 .address p {

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import './Navbar.css'
-import Navlink from './Navlink/Navlink'
+import './Navbar.css';
+import Navlink from './Navlink/Navlink';
 
 const Navbar = () => {
     return (
@@ -14,7 +14,7 @@ const Navbar = () => {
                 <Navlink to='/hazardAndRisk' name='Natural hazards and risk assessment' />
                 <Navlink to='/geophysics' name='Geophysical studies and seismic zoning' />
                 <Navlink to='/geotech' name='Geotechnical engineering and slope stability analysis' />
-                <Navlink to='/ourStaff' name='Our Staff' />
+                {/* <Navlink to='/ourStaff' name='Our Staff' /> */}
                 <Navlink to='/about' name='About' />
             </div> 
            </nav> 

@@ -1,0 +1,28 @@
+.Geotech .geotechMainText, .Geotech .title{
+    margin: 0px 30px;
+}
+
+.geotechMainText, .geotechList {
+    display: flex;
+    flex-direction: column;
+}
+
+.picsHolder {
+    display: flex;
+}
+.picsHolder img {
+    width: 50%;
+}
+
+.geotechMainText ul {
+    margin: 0px 30px;
+}
+
+.geotechMainText img {
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.withoutBorderRadius {
+    border-radius: 0px !important;
+}

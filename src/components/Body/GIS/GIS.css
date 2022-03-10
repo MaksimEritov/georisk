@@ -1,0 +1,17 @@
+.Gis .gisMainText, .Gis .title{
+    margin: 0px 30px;
+}
+
+.gisMainText {
+    display: flex;
+    flex-direction: column;
+}
+
+.gisMainText img {
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.gisMainText ul {
+    margin: 0px 30px;
+}

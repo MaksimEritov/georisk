@@ -14,7 +14,7 @@ const About = () => {
       </div>
       <div className='contacts'>
         <h4>Contact Persons</h4>
-        {Object.keys(AboutData.contactPerson).map(key => (<p>{key}: {AboutData.contactPerson[key]}</p>))}
+        {Object.keys(AboutData.contactPerson).map(key => (<p key={key}>{key}: {AboutData.contactPerson[key]}</p>))}
       </div>
     </div>
   );
