@@ -11,6 +11,16 @@
   justify-content: space-evenly;
 }
 
+.mapHolder {
+  display: flex;
+  justify-content: center;
+}
+
+.mapHolder > div {
+  border: 1px solid #2f79bd;
+  border-radius: 2px;
+}
+
 .address p {
   text-align: start;
 }

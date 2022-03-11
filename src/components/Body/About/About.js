@@ -1,11 +1,27 @@
 
 import './About.css';
-import { About as AboutData } from '../../../constants'
+import { About as AboutData } from '../../../constants';
+import { YMaps, Map, Placemark } from 'react-yandex-maps';
 
 const About = () => {
   return (
     <div className='About'>
       <h1 className='title'>Contacts</h1>
+      <YMaps>
+        <div className='mapHolder'>
+          <Map
+            defaultState={{ center: AboutData.coordinates, zoom: 15 }}
+            width={500}
+            height={500}
+            >
+            <Placemark
+                geometry={AboutData.coordinates}
+                key={AboutData.coordinates}
+                draggable={false}
+            />
+          </Map>
+        </div>
+      </YMaps>
       <div className='contactsHolder'>
         <div className='address'>
           <h4>Company Address</h4>
