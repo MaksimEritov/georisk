@@ -8,12 +8,12 @@ const Navbar = () => {
            <nav className='navbar'>
             <Link to='/' className='navLogo' />
             <div className='navMain'>
+                <Navlink to='/hazardAndRisk' name='Natural hazards and risk assessment' />
+                <Navlink to='/geotech' name='Geotechnical engineering' />
+                <Navlink to='/geophysics' name='Geophysical studies and seismic zoning' />
+                <Navlink to='/gis' name='Remote sensing and GIS' />
                 <Navlink to='/ecology' name='Ecology' />
                 <Navlink to='/archeoSeismology' name='Archeo Seismology' />
-                <Navlink to='/gis' name='Remote sensing and GIS' />
-                <Navlink to='/hazardAndRisk' name='Natural hazards and risk assessment' />
-                <Navlink to='/geophysics' name='Geophysical studies and seismic zoning' />
-                <Navlink to='/geotech' name='Geotechnical engineering' />
                 <Navlink to='/ourStaff' name='Our Staff' />
                 <Navlink to='/about' name='About' />
             </div> 
